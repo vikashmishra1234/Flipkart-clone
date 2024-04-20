@@ -1,0 +1,102 @@
+.aside-container{
+    
+    width: 20vw;
+    background: white;
+    padding-left: 10px;
+    margin-left: 5px;
+    h5{
+        font-size: 21px;
+    padding: 14px;
+    letter-spacing: 0.5px;
+    border-bottom: .2px solid lightgray;
+    }
+    .aside-category{
+        padding: 10px;
+        font-size: 14px;
+        border-bottom: .2px solid lightgray;
+    }
+    .aside-category :nth-child(1){
+       font-weight: 500;
+        
+        
+    }
+    .aside-category :nth-child(2){
+        color: #938e8e;
+        cursor: pointer;
+        margin: 12px;
+        list-style-type: none;
+    }
+    .aside-category :nth-child(3){
+        
+        cursor: pointer;
+        margin: 12px;
+        list-style-type: none;
+    }
+    li{
+        cursor: pointer;
+        margin: 12px;
+        list-style-type: none;
+    }
+    .aside-price{
+        padding: 10px;
+        span{
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: .5px;
+        }
+        .slider-upper{
+            background: #e0e0e0;
+    display: inline-block;
+    height: 16.6667px;
+    width: 88.9367px;
+        }
+        .slider-upper1{
+            background: #e0e0e0;
+    display: inline-block;
+    height: 25px;
+    width: 88.9367px;
+        }
+        .slider-upper2{
+            background: #e0e0e0;
+    display: inline-block;
+    height: 16.6667px;
+    width: 88.9367px;
+        }
+
+        .slider-input{
+            margin-top: -12px;
+         input{
+            width: 94%;
+         }
+         select{
+            width: 42%;
+            margin: 5px;
+         }
+        }
+    }
+}
+
+.section-container{
+display: flex;
+flex-direction: column;
+gap: 7px;
+width: 60vw;
+    .section-1{
+        background-color: white;
+        height: 15vh;
+       padding-top: 10px;
+        input{
+            outline: none;
+            font-size: 22px;
+            border: none;
+            height: 32px;
+            background: #8e8eba;
+            border-radius: 6px;
+            padding-left: 10px;
+            color: chartreuse;
+            margin-left: 14px;
+            
+        }
+    }
+  
+}

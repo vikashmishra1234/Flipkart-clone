@@ -1,0 +1,38 @@
+.carousel-container{
+  
+    display: flex;
+    gap: 21px;
+    flex-wrap: wrap;
+ 
+
+}
+.carousel-container img{
+    height: 13vw;
+    width: 10vw;
+    cursor: pointer;
+   
+}
+.img-container{
+    border: 1px solid #e0d9d9;
+    height: 41vh;
+    width: 15vw;
+    align-items: center;
+    justify-content: center;
+}
+.parant{
+    width: 83vw;
+    padding: 10px;
+    background: white;
+    margin: 10px;
+    height: 55vh;
+}
+.sponsor-container{
+    margin: 10px;
+    gap: 10px;
+    background-color: white;
+    img{
+        height: 35vh;
+        width:32vw ;
+        cursor: pointer;
+    }
+}
